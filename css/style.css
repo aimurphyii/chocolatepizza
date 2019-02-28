@@ -1,0 +1,93 @@
+body{
+  font-family:cambria; 
+
+}
+
+header{
+  width: 900px;
+  margin:20px auto;
+}
+header section img{
+  float:left;
+}
+header ul{
+  float:right;
+  margin-top:-25px;
+}
+
+header li{
+  display: inline-block;
+}
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:30px;
+}
+h2{
+  font-size:35px;
+  margin-left:45px;
+}
+h3{
+  font-size: 12px;
+}
+h4{
+  font-size:10px;
+  margin-left:45px;
+}
+h5{
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.mono{
+  font-family: Monaco,Eurostile, mono;
+  text-transform: uppercase;
+}
+
+.cursive{
+  font-family: signpainter; 
+}
+.notecard{
+  position: relative;
+  text-align: left;
+}
+.recipe{
+  font-family: comic sans ms;
+  line-height: 32px;
+  width: 80%;
+  margin-left: 45px;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+
+main{
+  margin: 30px auto;
+  width:900px;
+}
+main p{
+  text-indent: 1em;
+  margin-top: 20px;
+}
+.bg{
+  margin-top: 20px;
+}
+.checklist{
+width: 50%;
+}
+footer{
+  margin-top: 50px;
+}
+footer section img{
+  float:left;
+}
+button{
+  font-family: Monaco,Eurostile, mono;
+  text-transform: uppercase;
+}
