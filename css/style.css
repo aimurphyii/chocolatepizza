@@ -124,7 +124,9 @@ button:hover{
   overflow: hidden;
   font-size: x-small;
   text-indent: 0;
-  margin-top: 20px
+  margin-top: 20px;
+  position: relative;
+  z-index: -1;
 }
 #copyr{
   text-align: center;
@@ -133,7 +135,10 @@ button:hover{
   clear:both;
 }
 #shithead{
-  position: absolute;
-  bottom: -357%;
-  left: 48%;
+  border: 4px solid white;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -20px;
+  margin-left: 48%;
 }
