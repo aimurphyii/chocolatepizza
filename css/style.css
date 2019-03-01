@@ -1,8 +1,6 @@
 body{
   font-family:cambria; 
-
 }
-
 header{
   width: 900px;
   margin:20px auto;
@@ -28,6 +26,7 @@ h2{
 }
 h3{
   font-size: 12px;
+  margin-bottom:20px;
 }
 h4{
   font-size:10px;
@@ -84,30 +83,57 @@ width: 50%;
 footer{
   margin-top: 50px;
 }
-footer section img{
+footer div img{
   float:left;
+  margin-left: 10px;
 }
+footer section{
+  margin-left: 100px;
+  width:480px;
+}
+footer section p{
+  text-indent: 0;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
 em{
   font-weight: bolder;
+  margin-bottom: 20px;
 }
+
 button{
   font-family: Monaco,Eurostile, mono;
   text-transform: uppercase;
+  font-size: 14px;
   border: none;
   background: rgb(173, 90, 59);
   color: #fff;
-  padding: 8px 20px;
+  padding: 15px 25px;
   transition: 350ms all;
   cursor: pointer;
   margin-top: 10px;
 }
 
 button:hover{
-  background: #fff;
+  background: rgba(173, 89, 59, 0.534);
   color: rgb(173, 90, 59);
 }
 .break{
   width:900px;
   overflow: hidden;
   font-size: x-small;
+  text-indent: 0;
+  margin-top: 20px
+}
+#copyr{
+  text-align: center;
+}
+.clearfix{
+  clear:both;
+}
+#shithead{
+  position: absolute;
+  bottom: -357%;
+  left: 48%;
 }
